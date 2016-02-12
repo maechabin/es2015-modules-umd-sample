@@ -1,0 +1,16 @@
+{
+  "name": "es6-modules-umd-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "foo": "babel ./src/foo.js -o ./dist/foo.js",
+    "build": "browserify -t babelify ./src/app.js -o ./dist/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babelify": "^7.2.0"
+  }
+}
